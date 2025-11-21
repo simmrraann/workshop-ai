@@ -133,6 +133,12 @@ function App() {
             A fun + practical mini-workshop for students
           </p>
 
+          <div className="text-center my-8">
+            <p className="text-2xl font-bold text-pink-600">
+              This Saturday, 22nd November, at 4:00 PM
+            </p>
+          </div>
+
           <div className="flex items-center justify-center gap-2 mb-8">
             <div className="h-1 w-12 bg-pink-300 rounded-full"></div>
             <Star className="text-pink-400" size={16} fill="currentColor" />
@@ -176,7 +182,7 @@ function App() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800 mb-1">Seats</p>
-                  <p className="text-gray-600">150</p>
+                  <p className="text-gray-600">30 (Limited Seats)</p>
                 </div>
               </div>
 
@@ -192,7 +198,7 @@ function App() {
             </div>
 
             <div className="bg-white rounded-2xl p-4 border-2 border-dashed border-pink-300 text-center">
-              <p className="text-3xl font-bold text-pink-600 mb-1">₹49</p>
+              <p className="text-3xl font-bold text-pink-600 mb-1">₹19</p>
               <p className="text-sm text-gray-600">pay after registration</p>
             </div>
           </div>
