@@ -47,8 +47,7 @@ function App() {
 
     // ⚠️ IMPORTANT: MAKE SURE THIS IS YOUR LATEST WEB APP URL
     // If you redeployed the script, you must paste the NEW URL here.
-    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwwdOO_KXguyvYzUfpPq49O4chxsie0Ca9D88iO5VDe4xY_GwFbMmdvP2nUP4t-vxtQxw/exec';
-
+    const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbydH8pDWb-OJm3F3ZFdZ0kJxR0-gPSfNJKq_Aq83zeA0JSFRyJ1bpqRWTnbTRJYVNrF/exec';
     const registrationId = `REG-${Math.random().toString(36).substring(2, 7).toUpperCase()}`;
 
     const payload = {
